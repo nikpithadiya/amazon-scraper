@@ -193,7 +193,8 @@ export async function POST(req: NextRequest) {
       }
 
       const scrapedData = await Promise.all(
-        links.slice(0, 1).map((e) => fetchProducts(e, browser)).filter(e => !!e)
+        // remove slice to scrape all products
+        links.slice(0, 5).map((e) => fetchProducts(e, browser)).filter(e => !!e)
       );
 
       await browser.close();
