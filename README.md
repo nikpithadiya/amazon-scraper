@@ -14,7 +14,7 @@ A web application built with Next.js and Tailwind CSS that extracts and displays
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/amazon-scraper.git
+   git clone git@github.com:nikpithadiya/amazon-scraper.git
    cd amazon-scraper
    ```
 
